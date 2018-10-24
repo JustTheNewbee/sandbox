@@ -1,3 +1,15 @@
 #index:
 #    path: /{name}
 #    controller: App\Controller\DefaultController::index
+
+#blog_list:
+#    path: /blog/{page}
+#    controller: App\Controller\DefaultController::list
+#    requirements:
+#        page: '\d+'
+#    defaults:
+#        page: 1
+
+#blog_show:
+#    path: /blog/{slug}
+#    controller: App\Controller\DefaultController::show
